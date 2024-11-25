@@ -32,7 +32,7 @@ header {
 
 /* panggil class logo pake titik (.) */
 .logo {
-  color: rgb(94, 41, 41);
+  color: rgb(32, 22, 96);
   font-size: 20px;
   font-weight: 600;
 }
@@ -49,7 +49,7 @@ header {
 
 li a {
   position: relative;
-  color: rgb(94, 78, 78);
+  color: rgb(32, 22, 96);
   font-weight: 300;
 }
 
@@ -194,5 +194,36 @@ section {
   justify-content: left;
   cursor: pointer;
   transition: 0.2s ease-in-out;
+}
+
+.grid-card:hover {
+  transform: scale(1.02);
+  background-color: black;
+  color: white;
+}
+
+.grid-card i {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.grid-card span {
+  font-size: 24px;
+  font-weight: 500;
+  background: linear-gradient(to right, rgb(255, 0, 255), rgb(0, 157, 255));
+  background-clip: text;
+  color: transparent;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  color: rgb(225, 225, 225);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, rgb(255, 0, 255), rgb(0, 157, 255));
 }
 /* Experience END */
